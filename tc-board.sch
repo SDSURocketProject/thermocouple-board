@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Module Control Board"
 Date "2020-01-06"
 Rev "3"
@@ -51,6 +51,12 @@ F17 "TC_NEGATIVE_8" I R 4800 3250 50
 F18 "TC_NEGATIVE_6" I R 4800 2750 50 
 F19 "TC_NEGATIVE_4" I R 4800 2250 50 
 F20 "TC_NEGATIVE_2" I R 4800 1750 50 
+$EndSheet
+$Sheet
+S 3250 3650 1550 1000
+U 5E1D9905
+F0 "Pressure Transducers" 50
+F1 "pressuretd.sch" 50
 $EndSheet
 $Sheet
 S 800  3650 1400 1000
