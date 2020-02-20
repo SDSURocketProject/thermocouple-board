@@ -392,17 +392,6 @@ F 3 "" H 2450 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcb:MCP9601_ZM U3
-U 1 1 5E49ACCB
-P 5700 1250
-F 0 "U3" H 5700 1665 50  0000 C CNN
-F 1 "MCP9601_ZM" H 5700 1574 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5700 1250 50  0001 C CNN
-F 3 "" H 5700 1250 50  0001 C CNN
-	1    5700 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR023
 U 1 1 5E49ACD1
 P 4950 2200
@@ -827,8 +816,6 @@ Text Label 6250 2850 0    50   ~ 0
 ADDR_4
 Text Label 3800 4600 0    50   ~ 0
 ADDR_5
-Text Label 6250 4600 0    50   ~ 0
-ADDR_6
 Text Label 3800 1100 0    50   ~ 0
 ADDR_1
 Text Label 6250 1100 0    50   ~ 0
@@ -994,8 +981,6 @@ Wire Wire Line
 Connection ~ 7600 3050
 Wire Wire Line
 	7600 3050 7600 3100
-Text Label 8000 3050 0    50   ~ 0
-ADDR_6
 $Comp
 L power:+3V3 #PWR012
 U 1 1 5E6109C4
@@ -1217,4 +1202,21 @@ Text HLabel 5150 4150 0    50   Input ~ 0
 TC_NEGATIVE_4
 Text HLabel 5150 2400 0    50   Input ~ 0
 TC_NEGATIVE_2
+Text Label 8000 3050 0    50   ~ 0
+ADDR_6
+Text Label 6250 4600 0    50   ~ 0
+ADDR_6
+$Comp
+L mcb:MCP9601_ZM U3
+U 1 1 5E49ACCB
+P 5700 1250
+F 0 "U3" H 5700 1665 50  0000 C CNN
+F 1 "MCP9601_ZM" H 5700 1574 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5700 1250 50  0001 C CNN
+F 3 "" H 5700 1250 50  0001 C CNN
+	1    5700 1250
+	1    0    0    -1  
+$EndComp
+Text Label 6250 1800 0    50   ~ 0
+TEST
 $EndSCHEMATC

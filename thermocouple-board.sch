@@ -89,4 +89,124 @@ Wire Wire Line
 	2450 2800 2450 4000
 Wire Wire Line
 	2450 4000 2200 4000
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5E4B9429
+P 5750 1400
+F 0 "J4" H 5830 1392 50  0000 L CNN
+F 1 "TC1" H 5830 1301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 1400 50  0001 C CNN
+F 3 "~" H 5750 1400 50  0001 C CNN
+	1    5750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5E4B99EB
+P 5750 1650
+F 0 "J5" H 5830 1642 50  0000 L CNN
+F 1 "TC2" H 5830 1551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 1650 50  0001 C CNN
+F 3 "~" H 5750 1650 50  0001 C CNN
+	1    5750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5E4B9D21
+P 5750 1900
+F 0 "J6" H 5830 1892 50  0000 L CNN
+F 1 "TC3" H 5830 1801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 1900 50  0001 C CNN
+F 3 "~" H 5750 1900 50  0001 C CNN
+	1    5750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5E4BA0A8
+P 5750 2150
+F 0 "J7" H 5830 2142 50  0000 L CNN
+F 1 "TC4" H 5830 2051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 2150 50  0001 C CNN
+F 3 "~" H 5750 2150 50  0001 C CNN
+	1    5750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5E4BA39F
+P 5750 2400
+F 0 "J8" H 5830 2392 50  0000 L CNN
+F 1 "TC5" H 5830 2301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 2400 50  0001 C CNN
+F 3 "~" H 5750 2400 50  0001 C CNN
+	1    5750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5E4BA9DC
+P 5750 2650
+F 0 "J9" H 5830 2642 50  0000 L CNN
+F 1 "TC6" H 5830 2551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 2650 50  0001 C CNN
+F 3 "~" H 5750 2650 50  0001 C CNN
+	1    5750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5E4BACC1
+P 5750 2900
+F 0 "J10" H 5830 2892 50  0000 L CNN
+F 1 "TC7" H 5830 2801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 2900 50  0001 C CNN
+F 3 "~" H 5750 2900 50  0001 C CNN
+	1    5750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5E4BB50D
+P 5750 3150
+F 0 "J11" H 5830 3142 50  0000 L CNN
+F 1 "TC8" H 5830 3051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 3150 50  0001 C CNN
+F 3 "~" H 5750 3150 50  0001 C CNN
+	1    5750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3250 5550 3250
+Wire Wire Line
+	4800 3150 5550 3150
+Wire Wire Line
+	4800 3000 5550 3000
+Wire Wire Line
+	4800 2900 5550 2900
+Wire Wire Line
+	4800 2750 5550 2750
+Wire Wire Line
+	4800 2650 5550 2650
+Wire Wire Line
+	4800 2500 5550 2500
+Wire Wire Line
+	4800 2400 5550 2400
+Wire Wire Line
+	4800 2250 5550 2250
+Wire Wire Line
+	4800 2150 5550 2150
+Wire Wire Line
+	4800 2000 5550 2000
+Wire Wire Line
+	4800 1900 5550 1900
+Wire Wire Line
+	4800 1750 5550 1750
+Wire Wire Line
+	4800 1650 5550 1650
+Wire Wire Line
+	4800 1500 5550 1500
+Wire Wire Line
+	4800 1400 5550 1400
 $EndSCHEMATC
