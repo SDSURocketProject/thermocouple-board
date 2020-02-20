@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mcb)(type Legacy)(uri ${KIPRJMOD}/mcb.lib)(options "")(descr ""))
+  (lib (name thermocouple-board-rescue)(type Legacy)(uri ${KIPRJMOD}/thermocouple-board-rescue.lib)(options "")(descr ""))
+)

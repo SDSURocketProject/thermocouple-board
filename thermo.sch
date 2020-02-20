@@ -4,19 +4,21 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Thermocouple Inputs"
+Date "2020-02-19"
+Rev "1"
+Comp "SDSU Rocket Project"
+Comment1 "Discovery"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mcb:MCP9601_ZM U2
+L thermocouple-board-rescue:MCP9601_ZM-mcb U2
 U 1 1 5E1FFA2C
 P 3250 1250
+AR Path="/5E1FFA2C" Ref="U2"  Part="1" 
+AR Path="/5E1D9404/5E1FFA2C" Ref="U2"  Part="1" 
 F 0 "U2" H 3250 1665 50  0000 C CNN
 F 1 "MCP9601_ZM" H 3250 1574 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 3250 1250 50  0001 C CNN
@@ -134,9 +136,11 @@ SDA
 Text HLabel 4500 700  1    50   Input ~ 0
 SCL
 $Comp
-L mcb:MCP9601_ZM U4
+L thermocouple-board-rescue:MCP9601_ZM-mcb U4
 U 1 1 5E48DAFD
 P 3250 3000
+AR Path="/5E48DAFD" Ref="U4"  Part="1" 
+AR Path="/5E1D9404/5E48DAFD" Ref="U4"  Part="1" 
 F 0 "U4" H 3250 3415 50  0000 C CNN
 F 1 "MCP9601_ZM" H 3250 3324 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 3250 3000 50  0001 C CNN
@@ -220,9 +224,11 @@ F 3 "" H 2450 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcb:MCP9601_ZM U6
+L thermocouple-board-rescue:MCP9601_ZM-mcb U6
 U 1 1 5E48FD8F
 P 3250 4750
+AR Path="/5E48FD8F" Ref="U6"  Part="1" 
+AR Path="/5E1D9404/5E48FD8F" Ref="U6"  Part="1" 
 F 0 "U6" H 3250 5165 50  0000 C CNN
 F 1 "MCP9601_ZM" H 3250 5074 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 3250 4750 50  0001 C CNN
@@ -306,9 +312,11 @@ F 3 "" H 2450 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcb:MCP9601_ZM U8
+L thermocouple-board-rescue:MCP9601_ZM-mcb U8
 U 1 1 5E491D78
 P 3250 6500
+AR Path="/5E491D78" Ref="U8"  Part="1" 
+AR Path="/5E1D9404/5E491D78" Ref="U8"  Part="1" 
 F 0 "U8" H 3250 6915 50  0000 C CNN
 F 1 "MCP9601_ZM" H 3250 6824 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 3250 6500 50  0001 C CNN
@@ -467,9 +475,11 @@ F 3 "" H 4900 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcb:MCP9601_ZM U5
+L thermocouple-board-rescue:MCP9601_ZM-mcb U5
 U 1 1 5E49F187
 P 5700 3000
+AR Path="/5E49F187" Ref="U5"  Part="1" 
+AR Path="/5E1D9404/5E49F187" Ref="U5"  Part="1" 
 F 0 "U5" H 5700 3415 50  0000 C CNN
 F 1 "MCP9601_ZM" H 5700 3324 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5700 3000 50  0001 C CNN
@@ -553,9 +563,11 @@ F 3 "" H 4900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcb:MCP9601_ZM U7
+L thermocouple-board-rescue:MCP9601_ZM-mcb U7
 U 1 1 5E4A4E17
 P 5700 4750
+AR Path="/5E4A4E17" Ref="U7"  Part="1" 
+AR Path="/5E1D9404/5E4A4E17" Ref="U7"  Part="1" 
 F 0 "U7" H 5700 5165 50  0000 C CNN
 F 1 "MCP9601_ZM" H 5700 5074 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5700 4750 50  0001 C CNN
@@ -639,9 +651,11 @@ F 3 "" H 4900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mcb:MCP9601_ZM U9
+L thermocouple-board-rescue:MCP9601_ZM-mcb U9
 U 1 1 5E4AAAFA
 P 5700 6500
+AR Path="/5E4AAAFA" Ref="U9"  Part="1" 
+AR Path="/5E1D9404/5E4AAAFA" Ref="U9"  Part="1" 
 F 0 "U9" H 5700 6915 50  0000 C CNN
 F 1 "MCP9601_ZM" H 5700 6824 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5700 6500 50  0001 C CNN
@@ -1171,45 +1185,47 @@ $EndComp
 Wire Wire Line
 	10000 1300 10400 1300
 Text HLabel 2700 2300 0    50   Input ~ 0
-TC_POSITIVE_1
+TC1+
 Text HLabel 2700 4050 0    50   Input ~ 0
-TC_POSITIVE_3
+TC3+
 Text HLabel 2700 5800 0    50   Input ~ 0
-TC_POSITIVE_5
+TC5+
 Text HLabel 2700 7550 0    50   Input ~ 0
-TC_POSITIVE_7
+TC7+
 Text HLabel 5150 2300 0    50   Input ~ 0
-TC_POSITIVE_2
+TC2+
 Text HLabel 5150 4050 0    50   Input ~ 0
-TC_POSITIVE_4
+TC4+
 Text HLabel 5150 5800 0    50   Input ~ 0
-TC_POSITIVE_6
+TC6+
 Text HLabel 5150 7550 0    50   Input ~ 0
-TC_POSITIVE_8
+TC8+
 Text HLabel 2700 2400 0    50   Input ~ 0
-TC_NEGATIVE_1
+TC1-
 Text HLabel 2700 4150 0    50   Input ~ 0
-TC_NEGATIVE_3
+TC3-
 Text HLabel 2700 5900 0    50   Input ~ 0
-TC_NEGATIVE_5
+TC5-
 Text HLabel 2700 7650 0    50   Input ~ 0
-TC_NEGATIVE_7
+TC7-
 Text HLabel 5150 7650 0    50   Input ~ 0
-TC_NEGATIVE_8
+TC8-
 Text HLabel 5150 5900 0    50   Input ~ 0
-TC_NEGATIVE_6
+TC6-
 Text HLabel 5150 4150 0    50   Input ~ 0
-TC_NEGATIVE_4
+TC4-
 Text HLabel 5150 2400 0    50   Input ~ 0
-TC_NEGATIVE_2
+TC2-
 Text Label 8000 3050 0    50   ~ 0
 ADDR_6
 Text Label 6250 4600 0    50   ~ 0
 ADDR_6
 $Comp
-L mcb:MCP9601_ZM U3
+L thermocouple-board-rescue:MCP9601_ZM-mcb U3
 U 1 1 5E49ACCB
 P 5700 1250
+AR Path="/5E49ACCB" Ref="U3"  Part="1" 
+AR Path="/5E1D9404/5E49ACCB" Ref="U3"  Part="1" 
 F 0 "U3" H 5700 1665 50  0000 C CNN
 F 1 "MCP9601_ZM" H 5700 1574 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm" H 5700 1250 50  0001 C CNN
@@ -1217,6 +1233,92 @@ F 3 "" H 5700 1250 50  0001 C CNN
 	1    5700 1250
 	1    0    0    -1  
 $EndComp
-Text Label 6250 1800 0    50   ~ 0
-TEST
+$Comp
+L power:GND #PWR0102
+U 1 1 5E525C52
+P 3800 2150
+F 0 "#PWR0102" H 3800 1900 50  0001 C CNN
+F 1 "GND" H 3805 1977 50  0000 C CNN
+F 2 "" H 3800 2150 50  0001 C CNN
+F 3 "" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E528B85
+P 6250 2150
+F 0 "#PWR0103" H 6250 1900 50  0001 C CNN
+F 1 "GND" H 6255 1977 50  0000 C CNN
+F 2 "" H 6250 2150 50  0001 C CNN
+F 3 "" H 6250 2150 50  0001 C CNN
+	1    6250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E528F8C
+P 3800 3900
+F 0 "#PWR0104" H 3800 3650 50  0001 C CNN
+F 1 "GND" H 3805 3727 50  0000 C CNN
+F 2 "" H 3800 3900 50  0001 C CNN
+F 3 "" H 3800 3900 50  0001 C CNN
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E52A271
+P 6250 3900
+F 0 "#PWR0105" H 6250 3650 50  0001 C CNN
+F 1 "GND" H 6255 3727 50  0000 C CNN
+F 2 "" H 6250 3900 50  0001 C CNN
+F 3 "" H 6250 3900 50  0001 C CNN
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E52A7E8
+P 3800 5650
+F 0 "#PWR0106" H 3800 5400 50  0001 C CNN
+F 1 "GND" H 3805 5477 50  0000 C CNN
+F 2 "" H 3800 5650 50  0001 C CNN
+F 3 "" H 3800 5650 50  0001 C CNN
+	1    3800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E52BF98
+P 6250 5650
+F 0 "#PWR0107" H 6250 5400 50  0001 C CNN
+F 1 "GND" H 6255 5477 50  0000 C CNN
+F 2 "" H 6250 5650 50  0001 C CNN
+F 3 "" H 6250 5650 50  0001 C CNN
+	1    6250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E52C3C5
+P 3800 7400
+F 0 "#PWR0108" H 3800 7150 50  0001 C CNN
+F 1 "GND" H 3805 7227 50  0000 C CNN
+F 2 "" H 3800 7400 50  0001 C CNN
+F 3 "" H 3800 7400 50  0001 C CNN
+	1    3800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E52D261
+P 6250 7400
+F 0 "#PWR0109" H 6250 7150 50  0001 C CNN
+F 1 "GND" H 6255 7227 50  0000 C CNN
+F 2 "" H 6250 7400 50  0001 C CNN
+F 3 "" H 6250 7400 50  0001 C CNN
+	1    6250 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

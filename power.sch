@@ -4,26 +4,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Power Management"
+Date "2020-02-19"
+Rev "1"
+Comp "SDSU Rocket Project"
+Comment1 "Discovery"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+3V3 #PWR056
-U 1 1 5E6622D0
-P 1600 1100
-F 0 "#PWR056" H 1600 950 50  0001 C CNN
-F 1 "+3V3" H 1615 1273 50  0000 C CNN
-F 2 "" H 1600 1100 50  0001 C CNN
-F 3 "" H 1600 1100 50  0001 C CNN
-	1    1600 1100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R25
 U 1 1 5E6627FE
@@ -432,4 +421,28 @@ F 3 "" H 3750 3450 50  0001 C CNN
 	1    3750 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3V3 #PWR056
+U 1 1 5E6622D0
+P 1600 1100
+F 0 "#PWR056" H 1600 950 50  0001 C CNN
+F 1 "+3V3" H 1615 1273 50  0000 C CNN
+F 2 "" H 1600 1100 50  0001 C CNN
+F 3 "" H 1600 1100 50  0001 C CNN
+	1    1600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E56AF16
+P 8350 3150
+F 0 "#PWR?" H 8350 3000 50  0001 C CNN
+F 1 "+3V3" H 8365 3323 50  0000 C CNN
+F 2 "" H 8350 3150 50  0001 C CNN
+F 3 "" H 8350 3150 50  0001 C CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3150 8350 3150
 $EndSCHEMATC

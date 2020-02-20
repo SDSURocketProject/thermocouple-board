@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Ethernet PHY+MAC Interface"
+Date "2020-02-19"
+Rev "1"
+Comp "SDSU Rocket Project"
+Comment1 "Discovery"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -224,7 +224,7 @@ Connection ~ 2800 5700
 Wire Wire Line
 	2950 5700 2800 5700
 Wire Wire Line
-	2800 5500 2800 5700
+	2800 5500 2800 5600
 Wire Wire Line
 	2950 5500 2800 5500
 $Comp
@@ -821,4 +821,9 @@ Text HLabel 5150 2750 0    50   Output ~ 0
 MISO
 Text HLabel 5150 2850 0    50   BiDi ~ 0
 SCK
+Wire Wire Line
+	4150 5600 2800 5600
+Connection ~ 2800 5600
+Wire Wire Line
+	2800 5600 2800 5700
 $EndSCHEMATC
