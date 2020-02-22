@@ -63,9 +63,9 @@ Text Label 3850 6100 2    50   ~ 0
 LEDB
 Text Label 3850 5900 2    50   ~ 0
 LEDA
-Text Label 3450 5800 3    50   ~ 0
+Text Label 2550 5700 0    50   ~ 0
 TPIN-
-Text Label 3300 5800 3    50   ~ 0
+Text Label 2550 5500 0    50   ~ 0
 TPIN+
 Text Label 3650 5400 2    50   ~ 0
 TPOUT-
@@ -194,57 +194,34 @@ Wire Wire Line
 	3850 6100 4150 6100
 Wire Wire Line
 	3850 5900 4150 5900
-Wire Wire Line
-	3450 5700 3150 5700
-Connection ~ 3450 5700
-Wire Wire Line
-	3450 5800 3450 5700
-Wire Wire Line
-	3300 5500 4150 5500
-Connection ~ 3300 5500
-Wire Wire Line
-	3300 5800 3300 5500
 $Comp
 L power:GND #PWR?
 U 1 1 5E55C852
-P 2800 6000
+P 3500 6050
 AR Path="/5E55C852" Ref="#PWR?"  Part="1" 
 AR Path="/5E1585EB/5E55C852" Ref="#PWR?"  Part="1" 
 AR Path="/5E4B3E61/5E55C852" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 2800 5750 50  0001 C CNN
-F 1 "GND" H 3000 5900 50  0000 R CNN
-F 2 "" H 2800 6000 50  0001 C CNN
-F 3 "" H 2800 6000 50  0001 C CNN
-	1    2800 6000
+F 0 "#PWR052" H 3500 5800 50  0001 C CNN
+F 1 "GND" H 3700 5950 50  0000 R CNN
+F 2 "" H 3500 6050 50  0001 C CNN
+F 3 "" H 3500 6050 50  0001 C CNN
+	1    3500 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 5700 2800 5800
-Connection ~ 2800 5700
-Wire Wire Line
-	2950 5700 2800 5700
-Wire Wire Line
-	2800 5500 2800 5600
-Wire Wire Line
-	2950 5500 2800 5500
 $Comp
 L Device:C_Small C?
 U 1 1 5E55C85D
-P 2800 5900
+P 3500 5950
 AR Path="/5E55C85D" Ref="C?"  Part="1" 
 AR Path="/5E1585EB/5E55C85D" Ref="C?"  Part="1" 
 AR Path="/5E4B3E61/5E55C85D" Ref="C16"  Part="1" 
-F 0 "C16" H 2950 5900 50  0000 C CNN
-F 1 "10nF" H 2600 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 2800 5900 50  0001 C CNN
-F 3 "~" H 2800 5900 50  0001 C CNN
-	1    2800 5900
+F 0 "C16" H 3650 5950 50  0000 C CNN
+F 1 "10nF" H 3650 6050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 3500 5950 50  0001 C CNN
+F 3 "~" H 3500 5950 50  0001 C CNN
+	1    3500 5950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4150 5700 3450 5700
-Wire Wire Line
-	3150 5500 3300 5500
 $Comp
 L Device:R_Small_US R?
 U 1 1 5E55C865
@@ -637,9 +614,6 @@ $EndComp
 Connection ~ 4200 3850
 Wire Wire Line
 	4200 3850 5150 3850
-Connection ~ 4750 3750
-Wire Wire Line
-	4750 3750 5150 3750
 Connection ~ 4750 3550
 Wire Wire Line
 	4750 3550 5150 3550
@@ -821,9 +795,51 @@ Text HLabel 5150 2750 0    50   Output ~ 0
 MISO
 Text HLabel 5150 2850 0    50   BiDi ~ 0
 SCK
+$Comp
+L Device:R_Small_US R?
+U 1 1 5EAAE3B2
+P 4950 3750
+AR Path="/5EAAE3B2" Ref="R?"  Part="1" 
+AR Path="/5E1585EB/5EAAE3B2" Ref="R?"  Part="1" 
+AR Path="/5E4B3E61/5EAAE3B2" Ref="R57"  Part="1" 
+F 0 "R57" V 5000 3850 50  0000 L CNN
+F 1 "5M" V 5000 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4950 3750 50  0001 C CNN
+F 3 "~" H 4950 3750 50  0001 C CNN
+	1    4950 3750
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4150 5600 2800 5600
-Connection ~ 2800 5600
+	4750 3750 4850 3750
+Connection ~ 4750 3750
 Wire Wire Line
-	2800 5600 2800 5700
+	5050 3750 5150 3750
+Wire Wire Line
+	5150 3450 4650 3450
+Wire Wire Line
+	4650 3450 4650 3250
+Connection ~ 4650 3250
+Wire Wire Line
+	3150 5500 3300 5500
+Wire Wire Line
+	3150 5700 3300 5700
+Wire Wire Line
+	2550 5500 2950 5500
+Wire Wire Line
+	2550 5700 2950 5700
+Connection ~ 3300 5500
+Wire Wire Line
+	3300 5500 4150 5500
+Connection ~ 3300 5700
+Wire Wire Line
+	3300 5700 4150 5700
+Wire Wire Line
+	3300 5500 3300 5600
+Wire Wire Line
+	3300 5600 3500 5600
+Wire Wire Line
+	3500 5600 3500 5850
+Connection ~ 3300 5600
+Wire Wire Line
+	3300 5600 3300 5700
 $EndSCHEMATC
